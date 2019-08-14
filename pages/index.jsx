@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Index = ({}) => {
+const Index = () => {
     return (
         <p>Index Page</p>
     );

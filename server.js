@@ -13,9 +13,9 @@ app.prepare().then(() => {
     server.use(bodyParser.json());
 
 
-    server.post('/test', (req, res) => {
-        // manage routes applying custom routes
-        // return customHandler(req, res);
+    server.get('/test', (req, res) => {
+        // custom handler
+        // return customHandler(req, res)
         return defaultHandler(req, res)
     })
 

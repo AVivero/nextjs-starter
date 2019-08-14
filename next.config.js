@@ -6,7 +6,7 @@ const withTM = require('@weco/next-plugin-transpile-modules');
 
 module.exports = withSass(withImages(withFonts(withTM(
   {
-    transpileModules: [''],
+    // transpileModules: [''],
     target: 'serverless',
     assetPrefix: 'http://localhost:3000',
   }
