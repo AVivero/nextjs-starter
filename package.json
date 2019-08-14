@@ -1,0 +1,55 @@
+{
+  "name": "nextjs-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:debug": "node --inspect server",
+    "serve": "nodemon server",
+    "dev": "next",
+    "build": "next build",
+    "now-build": "nex t build",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AVivero/nextjs-starter.git"
+  },
+  "author": "",
+  "dependencies": {
+    "@weco/next-plugin-transpile-modules": "^2.2.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.14.0",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.1",
+    "lodash.template": "^4.4.0",
+    "next": "9.0.1",
+    "next-fonts": "^0.17.0",
+    "next-images": "^1.1.1",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "prop-types": "^15.6.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-helmet": "^5.2.0",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVivero/nextjs-starter/issues"
+  },
+  "homepage": "https://github.com/AVivero/nextjs-starter#readme"
+}
